@@ -1,0 +1,7 @@
+@import './../registration/registration.component.css';
+
+.app-button {
+    border-radius: 50%;
+    height: 70px;
+    width: 100px;
+}

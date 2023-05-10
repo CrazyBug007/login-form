@@ -1,0 +1,11 @@
+<div class="app-view">
+    <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <input type="text" [(ngModel)]="loginUser.username" name="username" class="form-control" placeholder="username/mobile/email">
+    </div>
+    <div class="form-group">
+        <input type="password" [(ngModel)]="loginUser.password" name="password" class="form-control" placeholder="password">
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</div>

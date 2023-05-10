@@ -1,0 +1,14 @@
+<!-- <div *ngFor="let appName of appNames">
+    <button (click)="appView(appName)"  style="border-radius: 50%;">{{appName}}</button>   
+</div> -->
+<div class="app-view">
+    <div>
+        <button class="app-button" (click)="appView('App1')" >App1</button>   
+    </div>
+    <div>
+        <button (click)="appView('App2')" class="app-button">App2</button>   
+    </div>
+    <div>
+        <button (click)="appView('App3')" class="app-button">App3</button>   
+    </div>
+</div>

@@ -1,0 +1,13 @@
+.app-view {
+    margin: 48px;
+    text-align: center;
+}
+input {
+    padding: 8px;
+    margin: 6px;
+}
+
+button {
+    margin-top: 6px;
+    padding: 8px;
+}
